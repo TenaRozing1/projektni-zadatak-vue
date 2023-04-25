@@ -8,6 +8,7 @@
     <WhiteSection />
     <LagoonBlueSection />
     <GradientSection />
+    <FormSection />
     <nuxt />
   </div>
 </template>
@@ -21,9 +22,10 @@ import GraySection from '../components/GraySection.vue';
 import WhiteSection from '../components/WhiteSection.vue';
 import LagoonBlueSection from '../components/LagoonBlueSection.vue';
 import GradientSection from '../components/GradientSection.vue';
+import FormSection from '../components/FormSection.vue';
 
 export default {
   name: "IndexPage",
-  components: { HeaderElement, HeroSection, BlueSection, PlanetSection, GraySection, WhiteSection, LagoonBlueSection, GradientSection }
+  components: { HeaderElement, HeroSection, BlueSection, PlanetSection, GraySection, WhiteSection, LagoonBlueSection, GradientSection, FormSection }
 }
 </script>

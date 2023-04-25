@@ -28,7 +28,7 @@
         </div>
         <img src="../images/line.png" class="absolute" style="top:-9.5%; left: 4.5%; height: 791px; width: 4.8px;">
         <h2 class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 letter-class uppercase"
-            style="top:55.8%; left: 3.5%;">Realisation
+            style="top:42%; left: 3.5%;">Realisation
         </h2>
     </div>
 </template>

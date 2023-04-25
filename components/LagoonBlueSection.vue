@@ -6,7 +6,7 @@
             style="top:50%; left: 3.5%;">Estimation
         </h2>
         <div class="absolute flex justify-between mr-130p mt-136p" style="top:0; right: 0;">
-            <div class="">
+            <div>
                 <h2 class="font-black text-gray-section-1 text-white pb-90p">Estimation summary</h2>
                 <p class="text-white text-gray-section-2 h-152p max-w-450p w-full">Lorem ipsum dolor sit amet. Sit quaerat
                     cupiditate et libero repudiandae ut
