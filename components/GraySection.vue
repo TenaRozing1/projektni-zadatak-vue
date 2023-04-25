@@ -2,8 +2,8 @@
     <div class="bg-projectColors-light-gray relative">
         <div class="flex justify-end">
             <img src="../images/line.png" class="absolute" style="top:-9.5%; left: 4.5%;">
-            <h2 class="font-semibold text-white vertical-text absolute text-vertical z-20 letter-class"
-                style="top:40%; left: 3.5%;">SPECIFICATION
+            <h2 class="font-semibold text-white vertical-text absolute text-vertical z-20 letter-class uppercase"
+                style="top:40%; left: 3.5%;">Specification
             </h2>
             <img src="../images/hands.png" class="absolute z-20" style="top:13%; left: 12%;">
             <div class="mr-68p pt-351p">
