@@ -1,4 +1,4 @@
-# Vjezba4
+# Projektni zadatak - QED
 
 ## Build Setup
 
