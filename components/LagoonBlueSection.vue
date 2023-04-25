@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+    <div class="relative bg-projectColors-lighter-blue">
         <img src="../images/phase.png" class="relative w-full" style="top:0">
         <img src="../images/line.png" class="absolute" style="top:-7%; left: 4.5%; height: 899px; width: 4.8px;">
         <h2 class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 letter-class uppercase"
