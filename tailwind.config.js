@@ -20,6 +20,7 @@ module.exports = {
       maxWidth: {
         '903p': '56.438rem',
         '472.65p': '29.541rem',
+        '482p': '30.125rem',
       },
 
       maxHeight: {
@@ -32,6 +33,7 @@ module.exports = {
           "dark-gray": "#343A40",
           "text-gray": "#383838",
           "light-blue": '#5192E1',
+          "light-gray": '#F1F1F1',
         },
       },
       fontSize: {
@@ -39,6 +41,9 @@ module.exports = {
         'blue-button-text': ['1.406rem', '1.688rem'], // 22.5 27
         'hero-big': ['8.063rem', '9.75rem'], // 129 156
         'blue-section': ['2.438rem', '2.964rem'], // 39 47.43
+        'gray-section-1': ['4.25rem', '5.144rem'], // 68 82.3
+        'gray-section-2': ['1rem', '1.214rem'], // 16 19.43
+        'vertical': ['2rem', '2.438rem'], // 16 39
       },
       spacing: {
         "104p": "6.5rem",
@@ -56,6 +61,20 @@ module.exports = {
         '119p': '7.438rem',
         '285p': '17.813rem',
         '188p': '11.75rem',
+        '116.6p': '7.288rem',
+        '152.13p': '9.508rem',
+        '90p': '5.625rem',
+        '351p': '21.938rem',
+        '68p': '4.25rem',
+        '335p': '20.938rem',
+        '153p': '9.563rem',
+        '110p': '6.875rem',
+        '130p': '8.125rem',
+        '198p': '12.375rem',
+        '262p': '16.375rem',
+        '144p': '9rem',
+        '152p': '9.5rem',
+        '133p': '8.313rem',
       },
     },
   },
