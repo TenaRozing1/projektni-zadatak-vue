@@ -1,13 +1,15 @@
 <template>
-    <!-- <div class="bg-projectColors-light-gray">
-        <div class="flex pb-133p">
-            <div class=" pt-110p pl-262p pr-144p">
-                <img src="../images/book.png" class="relative">
+    <div class="bg-projectColors-light-gray hidden md:block">
+        <div
+            class="flex flex-col lg:flex-row items-center lg:items-start justify-center mx-10 lg:mx-0 pb-133p pt-110p lg:pl-10 xxxl:pl-262p lg:mr-10 xxxl:mr-130p">
+            <div class="lg:pr-10 xl:pr-24 xxxl:pr-144p">
+                <img src="../images/book.png" class="px-10 lg:px-0">
             </div>
             <div class="flex justify-end">
-                <div class="mr-130p pt-198p">
-                    <h2 class="font-black text-gray-section-1 text-projectColors-dark-gray pb-90p">Technical analyst</h2>
-                    <p class="max-w-482p w-full text-projectColors-dark-gray text-gray-section-2 h-152p">Lorem ipsum dolor
+                <div class="pt-20 lg:pt-198p">
+                    <h2 class="font-black text-gray-section-1 text-projectColors-dark-gray pb-12 lg:pb-90p">Technical
+                        analyst</h2>
+                    <p class="max-w-450p w-full text-projectColors-dark-gray text-gray-section-2 h-152p">Lorem ipsum dolor
                         sit
                         amet.
                         Sit quaerat
@@ -22,8 +24,5 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <div>
-        fvnfjb
     </div>
 </template>
