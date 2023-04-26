@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-projectColors-lighter-blue z-10">
+    <!-- <div class="relative bg-projectColors-lighter-blue z-10">
         <img src="../images/contactForm.png" class="relative w-full">
         <img src="../images/contactForm2.png" class="absolute bottom-10%neg w-full">
         <div class="flex max-w-1078p w-full mt-189p ml-340.5p top-0 right-0 left-0 absolute z-20 bg-white form-radius">
@@ -24,6 +24,12 @@
                     contact</button>
             </div>
         </div>
+        <div class="flex max-w-1078p h-124p w-full ml-340.5p bottom-20px- right-0 left-0 absolute z-20 bg-projectColors-dark-gray form-radius">
+
+        </div>
+    </div> -->
+    <div>
+        fhbvgfh
     </div>
 </template>
 

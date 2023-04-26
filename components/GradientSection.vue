@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-projectColors-lighter-blue">
+    <!-- <div class="relative bg-projectColors-lighter-blue">
         <div class="flex pt-65.3p ml-215p">
             <div class="mr-69p pt-65.3p">
                 <h2 class="font-black text-gray-section-1 text-projectColors-dark-gray pb-90p">Team assembling</h2>
@@ -30,5 +30,8 @@
         <h2 class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 letter-class uppercase"
             style="top:42%; left: 3.5%;">Realisation
         </h2>
+    </div> -->
+    <div>
+        fbgvb
     </div>
 </template>

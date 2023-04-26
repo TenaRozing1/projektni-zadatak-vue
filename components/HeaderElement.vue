@@ -1,7 +1,7 @@
 <template>
-    <div class="absolute top-0 right-0 bottom-100%">
+    <div class="absolute top-0 right-0 bottom-100% hidden xxl:block">
         <div class="flex justify-end items-end h-104p">
-            <div class="flex items-center mr-87.5p">
+            <div class="flex items-center mr-14 xxxl:mr-87.5p">
                 <h2 class="text-projectColors-text-gray text-button-text mr-75.6p">Way we do it</h2>
                 <h2 class="text-projectColors-text-gray text-button-text mr-59.12p">Partners</h2>
                 <button

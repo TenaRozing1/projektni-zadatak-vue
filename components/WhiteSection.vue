@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-projectColors-light-gray">
+    <!-- <div class="bg-projectColors-light-gray">
         <div class="flex pb-133p">
             <div class=" pt-110p pl-262p pr-144p">
                 <img src="../images/book.png" class="relative">
@@ -22,5 +22,8 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <div>
+        fvnfjb
     </div>
 </template>
