@@ -2,7 +2,7 @@
     <div class="bg-projectColors-light-gray relative">
         <div class="xl:overflow-y-hidden">
             <div class="relative bg-custom-blue blue-pattern-bg xl:hidden">
-                <!-- <img src="../images/blueSmallImage.png" class="relative w-full resize-blue" style="bottom:0"> -->
+                <div class="sm:hidden absolute right-0 bg-white w-12" style="height: 2px; top:5.3%"></div>
                 <div class="flex justify-center sm:mx-5">
                     <div
                         class="pt-30p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full mx-10 pb-52p sm:pb-10">
