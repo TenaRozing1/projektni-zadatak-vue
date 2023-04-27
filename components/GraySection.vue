@@ -2,10 +2,10 @@
     <div class="bg-projectColors-light-gray relative">
         <div class="xl:overflow-y-hidden">
             <div class="relative bg-custom-blue blue-pattern-bg xl:hidden">
-                <div class="sm:hidden absolute right-0 bg-white w-12" style="height: 2px; top:5.3%"></div>
+                <div class="hide-line absolute right-0 bg-white w-12" style="height: 1.5px; top:5.3%"></div>
                 <div class="flex justify-center sm:mx-5">
                     <div
-                        class="pt-30p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full mx-10 pb-52p sm:pb-10">
+                        class="pt-30p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full sm:mx-10 pb-52p sm:pb-10">
                         <div class="flex justify-center">
                             <h2 class="text-white uppercase font-semibold letter-class text-specification sm:text-4xl">
                                 Specification</h2>
@@ -68,7 +68,8 @@
                         saepe. Eos fugiat libero ut molestiae quisquam a sint nihil est molestiae cupiditate!
                     </p>
                 </div>
-                <img src="../images/writing.png" class="absolute pb-153p mr-20 xxxl:mr-110p resize" style="bottom:0; right:0;">
+                <img src="../images/writing.png" class="absolute pb-153p mr-20 xxxl:mr-110p resize"
+                    style="bottom:0; right:0;">
             </div>
         </div>
     </div>
