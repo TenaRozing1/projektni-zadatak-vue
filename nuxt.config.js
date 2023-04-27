@@ -25,11 +25,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
-  googleFonts: {
-    families: {
-      Inter: [100, 200, 300, 400, 500, 600, 700, 800],
-    },
-  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -41,6 +36,11 @@ export default {
     "@nuxtjs/google-fonts",
   ],
 
+  googleFonts: {
+    families: {
+      Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+    },
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 

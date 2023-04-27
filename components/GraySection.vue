@@ -1,7 +1,7 @@
 <template>
     <div class="bg-projectColors-light-gray relative">
         <div class="xl:overflow-y-hidden">
-            <div class="relative bg-custom-blue blue-pattern-bg xl:hidden">
+            <div class="relative bg-custom-blue blue-pattern-bg xl:hidden -mb-30p sm:mb-0">
                 <div class="hide-line absolute right-0 bg-white w-12" style="height: 2px; top:5.3%"></div>
                 <div class="flex justify-center sm:mx-5">
                     <div

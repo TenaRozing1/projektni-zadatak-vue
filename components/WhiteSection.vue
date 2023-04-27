@@ -7,7 +7,7 @@
             </div>
             <div class="flex justify-end">
                 <div class="pt-20 lg:pt-198p">
-                    <h2 class="font-black text-gray-section-1 text-projectColors-dark-gray pb-12 lg:pb-90p">Technical
+                    <h2 class="font-black text-gray-section-1 text-projectColors-dark-gray pb-12 lg:pb-90p xxxl:w-602p container:w-full">Technical
                         analyst</h2>
                     <p class="max-w-450p w-full text-projectColors-dark-gray text-gray-section-2 h-152p">Lorem ipsum dolor
                         sit

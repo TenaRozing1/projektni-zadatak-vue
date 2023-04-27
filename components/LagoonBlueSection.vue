@@ -24,12 +24,12 @@
                 </div>
                 <img src="../images/watch.png" class="xxx:ml-51p watch-image-resize">
             </div>
-            <div class="absolute resize-bottom xxxxl:bottom-22%neg z-20">
+            <div class="absolute resize-bottom xxxxl:bottom-25%neg z-20">
                 <div class="flex margin-left-1 ml-24
              xxl:ml-130p xxxl:ml-213p mr-20 xxl:mr-113p pb-201p">
                     <img src="../images/laptop.png" class="mr-20 xxxl:mr-133p watch-image-resize">
                     <div>
-                        <h2 class="font-black text-gray-section-1 text-white pb-90p max-w-609p">Cost optimisation</h2>
+                        <h2 class="font-black text-gray-section-1 text-white pb-90p xxxl:w-609p container:w-full">Cost optimisation</h2>
                         <p class="text-white text-gray-section-2 h-152p max-w-450p w-full">Lorem ipsum dolor sit amet. Sit
                             quaerat
                             cupiditate et libero repudiandae ut
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="relative show-section url-image bg-gradient-small">
+        <div class="relative show-section url-image bg-gradient-small -mb-30p">
             <img src="../images/flow.png" class="w-full relative sm:hidden">
             <div class="hide-line absolute right-0 bg-projectColors-dark-gray w-12" style="height: 2px; top:4.8%"></div>
             <div class="flex justify-center sm:mx-5 absolute top-0 bottom-0 left-0 right-0 sm:relative">

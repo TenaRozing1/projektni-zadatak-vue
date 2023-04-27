@@ -20,7 +20,7 @@
         <img src="../images/quoteImage.png" class="w-screen object-class relative" />
 
         <h2
-            class="absolute bottom-0 mb-160p sm:mb-0 mr-30p sm:bottom-38% max-w-240p sm:max-w-550p h-84p sm:h-188p right-0 sm:mr-14 xl:mr-119p text-white font-semibold text-our-goal sm:text-blue-section z-20">
+            class="absolute bottom-0 mb-160p sm:mb-0 mr-30p sm:bottom-38% max-w-257p sm:max-w-550p h-84p sm:h-188p right-0 sm:mr-14 xl:mr-119p text-white font-semibold text-our-goal sm:text-blue-section z-20">
             Our goal is help you create your own digital world. From idea to
             integration. With you every step of the way.
         </h2>

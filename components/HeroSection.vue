@@ -4,7 +4,7 @@
             class="relative mb-262p ml-41.65p sm:ml-5 md:ml-20 xxl:ml-110p padding-smaller pt-158p sm:pt-14 lg:pt-158p xxxl:pt-210p container:pt-137p z-30">
             <div class="xxxl:max-w-903p lg:w-546p xxxl:w-full mr-10 xxl:mr-0">
                 <h1
-                    class="text-projectColors-dark-gray text-left text-small-hero sm:text-5xl md:text-6xl lg:text-8xl xxxl:text-hero-big font-black pb-42p">
+                    class="text-projectColors-dark-gray text-left text-small-hero w-342p sm:w-full sm:text-5xl md:text-6xl lg:text-8xl xxxl:text-hero-big font-black pb-42p">
                     Let’s change
                     the future
                     together</h1>
@@ -67,6 +67,9 @@ export default {
 </script>
 
 <style>
+body {
+    font-family: 'Inter', sans-serif;
+}
 @media (max-width: 1727px) {
     .hide-slider {
         display: none !important;
