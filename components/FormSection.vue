@@ -55,7 +55,7 @@
 
 @media(min-width: 1729px) {
     .background-dark {
-        background-color: #004080;
+        background-color: #153B78;
     }
 }
 

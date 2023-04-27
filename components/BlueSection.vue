@@ -1,6 +1,6 @@
 <template>
-    <div class="relative">
-        <VueSlickCarousel :arrows="false" :dots="false" v-bind="settings" class="w-screen override-class">
+    <div class="relative blue-slider">
+        <VueSlickCarousel :arrows="false" :dots="false" v-bind="settings" class="w-screen override-class hide-slider-blue">
             <div>
                 <img src="../images/graph2.png" width="473" height="209">
             </div>
@@ -104,6 +104,11 @@ export default {
 </script>
 
 <style>
+@media(min-width: 1728px) {
+    .blue-slider .hide-slider-blue {
+        display: none;
+    }
+}
 
 .override-class {
     position: absolute !important;
@@ -111,6 +116,7 @@ export default {
     right: 0;
     z-index: 30;
 }
+
 @media (max-width: 1540px) {
     .hide-star {
         display: none;

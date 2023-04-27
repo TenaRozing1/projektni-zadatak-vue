@@ -17,7 +17,7 @@
                 </div>
                 <img src="../images/people.png" class="watch-image-resize image-margin" />
             </div>
-            <div class="flex xxl:ml-130p xxxl:ml-265p ml-24 xxl:mr-130p xxxl:mr-178p pb-185p mt-130p xxl:mt-266p">
+            <div class="flex xxl:ml-130p xxxl:ml-265p ml-24 xxl:mr-130p xxxl:mr-178p pb-185p mt-130p xxl:mt-266p xxxl:justify-end">
                 <img src="../images/man.png" class="watch-image-resize" />
                 <div class="xxl:pt-112p ml-12 xxl:ml-32 xxxl:ml-155p text-margin-2">
                     <h2 class="font-black text-gray-section-1 text-projectColors-dark-gray pb-90p xxl:w-546p mr-20">

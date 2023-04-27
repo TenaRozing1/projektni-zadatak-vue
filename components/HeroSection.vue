@@ -21,7 +21,7 @@
             <img src="../images/coverImageHero.png"
                 class="resize-colorful resize-colorful-2 responsive-image container:w-650p xxxxl:w-full">
         </div>
-        <VueSlickCarousel :arrows="false" :dots="false" v-bind="settings" class="w-screen relative hide-slider">
+        <VueSlickCarousel :arrows="false" :dots="false" v-bind="settings" class="w-screen z-30 relative hide-slider">
             <div>
                 <img src="../images/graph2.png" width="473" height="209">
             </div>

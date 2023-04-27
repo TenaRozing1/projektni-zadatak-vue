@@ -1,13 +1,13 @@
 <template>
     <div class="relative">
         <div class="hide-section bg">
-            <img src="../images/phase.png" class="relative w-full" style="top:0">
+            <img src="../images/phase.png" class="relative w-full xxxxl:h-screen" style="top:0">
             <img src="../images/line.png" class="absolute line-position-2 remove-left">
             <h2
-                class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 remove-left letter-class uppercase estimation-position">
+                class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 remove-left letter-class uppercase estimation-position xxxxl:hidden">
                 Estimation
             </h2>
-            <div class="absolute flex justify-between margin-left-2 ml-24 xxl:ml-130p xxxl:ml-0 mr-20 xxl:mr-130p mt-24 xxxl:mt-136p"
+            <div class="absolute flex justify-between margin-left-2 ml-24 xxl:ml-130p xxxl:ml-0 mr-20 xxl:mr-130p mt-24 xxxl:mt-136p xxxxl:ml-700pp added-left"
                 style="top:0; right: 0;">
                 <div class="mr-10 xxxl:mr-0">
                     <h2 class="font-black text-gray-section-1 text-white pb-90p">Estimation summary</h2>
@@ -24,7 +24,7 @@
                 </div>
                 <img src="../images/watch.png" class="xxx:ml-51p watch-image-resize">
             </div>
-            <div class="absolute resize-bottom">
+            <div class="absolute resize-bottom xxxxl:bottom-20%neg z-20">
                 <div class="flex margin-left-1 ml-24
              xxl:ml-130p xxxl:ml-213p mr-20 xxl:mr-113p pb-201p">
                     <img src="../images/laptop.png" class="mr-20 xxxl:mr-133p watch-image-resize">
@@ -76,6 +76,13 @@
 </template>
 
 <style>
+@media(min-width: 1729px) {
+    .added-left {
+        right: 0 !important;
+        max-width: 1700px;
+        justify-content: center;
+    }
+}
 @media(max-width: 1554px) {
     .watch-image-resize {
         width: 500px;
@@ -116,7 +123,7 @@
     }
 }
 
-@media(min-width: 1201px) {
+@media(min-width: 1201px) and (max-width: 1920px) {
     .resize-bottom {
         bottom: 0;
         left: 0;
