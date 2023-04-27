@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="relative show-section url-image bg-gradient-small -mb-30p">
+        <div class="relative show-section url-image bg-gradient-small">
             <img src="../images/flow.png" class="w-full relative sm:hidden">
             <div class="hide-line absolute right-0 bg-projectColors-dark-gray w-12" style="height: 2px; top:4.8%"></div>
             <div class="flex justify-center sm:mx-5 absolute top-0 bottom-0 left-0 right-0 sm:relative">
