@@ -1,23 +1,43 @@
 <template>
-    <div class="relative h-screen">
-        <div class="absolute top-0 left-0 ml-41.65p md:ml-5 xl:ml-110p padding-smaller pt-158p sm:pt-14 xxl:pt-324p z-30">
-            <div class="xxl:max-w-903p">
+    <div class="relative-class h-screen xxxl:h-full">
+        <div
+            class="relative mb-262p ml-41.65p sm:ml-5 md:ml-20 xxl:ml-110p padding-smaller pt-158p sm:pt-14 lg:pt-158p xxxl:pt-210p container:pt-137p z-30">
+            <div class="xxxl:max-w-903p lg:w-546p xxxl:w-full mr-10 xxl:mr-0">
                 <h1
-                    class="text-projectColors-dark-gray text-left text-small-hero md:text-8xl xxl:text-hero-big font-black pb-42p">
+                    class="text-projectColors-dark-gray text-left text-small-hero sm:text-5xl md:text-6xl lg:text-8xl xxxl:text-hero-big font-black pb-42p">
                     Let’s change
                     the future
                     together</h1>
             </div>
             <button
-                class="bg-projectColors-light-blue w-115p h-35p md:w-209p md:h-63p text-white font-bold text-button-small md:text-blue-button-text border-radius-class-2">Schedule
+                class="bg-projectColors-light-blue w-115p h-35p md:h-12 md:w-48 lg:w-209p lg:h-63p text-white font-bold text-button-small md:text-blue-button-text border-radius-class-2">Schedule
                 call</button>
         </div>
         <div class="absolute small-screen-1 lg:bottom-5.23% lg:right-20.19% xxxl:top-15.3% xxxl:right-20.19% z-10">
-            <img src="../images/coverElementHero.png" class="responsive-image-1">
+            <img src="../images/coverElementHero.png"
+                class="resize-blue resize-blue-2 responsive-image container:w-650p xxxxl:w-full">
         </div>
         <div class="absolute small-screen-2 lg:bottom-8% lg:right-0 xl:right-5.23% xxxl:top-13.3% xxxl:right-5.23% z-20">
-            <img src="../images/coverImageHero.png" class="responsive-image-2">
+            <img src="../images/coverImageHero.png"
+                class="resize-colorful resize-colorful-2 responsive-image container:w-650p xxxxl:w-full">
         </div>
+        <VueSlickCarousel :arrows="false" :dots="false" v-bind="settings" class="w-screen relative hide-slider">
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph3.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+        </VueSlickCarousel>
     </div>
 </template>
 
@@ -36,10 +56,9 @@ export default {
             settings: {
                 "infinite": true,
                 "draggable": true,
-                "arrows": true,
                 "speed": 500,
-                "slidesToShow": 4,
-                "slidesToScroll": 4,
+                "slidesToShow": 3.33,
+                "slidesToScroll": 1,
                 "initialSlide": 0,
             }
         }
@@ -48,6 +67,60 @@ export default {
 </script>
 
 <style>
+@media (max-width: 1727px) {
+    .hide-slider {
+        display: none !important;
+    }
+}
+
+@media(max-width:1727px) {
+    .relative-class {
+        position: relative;
+    }
+}
+
+@media(min-width: 900px) and (max-width: 1727px) {
+    .resize-blue {
+        width: 650px;
+    }
+}
+
+@media(max-width: 395px) {
+    .resize-blue {
+        width: 339.56px;
+    }
+}
+
+@media(max-width: 395px) {
+    .resize-colorful {
+        width: 313px;
+    }
+}
+
+@media(min-width: 900px) and (max-width: 1727px) {
+    .resize-colorful {
+        width: 600px;
+    }
+}
+
+@media(min-width:538px) and (max-width: 899px) {
+    .resize-colorful-2 {
+        width: 450px;
+    }
+}
+
+@media(min-width:538px) and (max-width: 899px) {
+    .resize-blue-2 {
+        width: 550px;
+    }
+}
+
+@media(min-width: 1299px) and (max-width: 1727px) {
+    .resize-colorful {
+        width: 500px;
+    }
+}
+
 @media (min-width: 635px) {
     .border-radius-class-2 {
         border-radius: 20px;
@@ -67,20 +140,6 @@ export default {
 .image-size {
     height: 816px;
     object-fit: cover;
-}
-
-@media(max-width:900px) {
-    body {
-        background: linear-gradient(150deg, #A4C1E2 -0.11%, rgba(255, 255, 255, 0) 6.55%);
-        overflow-x: hidden;
-    }
-}
-
-@media(min-width:901px) {
-    body {
-        background: linear-gradient(145deg, #A4C1E2 -0.11%, rgba(255, 255, 255, 0) 15%);
-        box-shadow: 0px 55px 77px rgba(0, 0, 0, 0.3);
-    }
 }
 
 @media(min-width: 500px) {
@@ -142,5 +201,35 @@ export default {
     .padding-smaller {
         padding-top: 50px;
     }
+}
+
+
+.look-slider .slick-slide {
+    width: 472.65px !important;
+    height: 209px !important;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+.look-slider .slick-slide>div {
+    width: 472.65px !important;
+    height: 209px !important;
+}
+
+
+
+.look-slider .slick-list {
+    margin: 0 -100px !important;
+}
+
+.look-slider .slick-slide {
+    padding: 0 5px !important;
+}
+
+
+
+.look-slider .slick-slide {
+    padding: 0 20px !important;
 }
 </style>

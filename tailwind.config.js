@@ -13,6 +13,7 @@ module.exports = {
       xl: "1100px",
       xxl: "1435px",
       xxxl: "1728px",
+      container: "1729px",
       xxxxl: "1921px",
     },
     extend: {
@@ -61,6 +62,7 @@ module.exports = {
           "light-gray": "#F1F1F1",
           "lighter-blue": "#EDF6FF",
           "input-border": "#C4C4C4",
+          "dark-blue": "#004080",
         },
       },
       fontSize: {
@@ -76,8 +78,8 @@ module.exports = {
         "small-hero": ["3.05rem", "3.688rem"], // 48.8 59
         "button-small": ["0.75rem", "0.956rem"], // 12 15
         "our-goal": ["1.106rem", "1.341rem"], // 17.7 21.45
-        "specification": ["0.9rem", "1.088rem"], // 14.4 17.4
-        "discovery": ["1.688rem", "2.05rem"], // 27 32.8
+        specification: ["0.9rem", "1.088rem"], // 14.4 17.4
+        discovery: ["1.688rem", "2.05rem"], // 27 32.8
         "description-small": ["0.875rem", "1.063rem"], // 14 17
       },
       spacing: {
@@ -162,10 +164,13 @@ module.exports = {
         "251p": "15.688rem",
         "77p": "4.813rem",
         "37p": "2.313rem",
+        "210p": "13.125rem",
         "97p": "6.063rem",
         "73p": "4.563rem",
         "88p": "5.5rem",
         "58p": "3.625rem",
+        "700px": "43.75rem",
+        "650p": "40.625rem",
       },
     },
   },

@@ -1,6 +1,24 @@
 <template>
     <div class="relative">
+        <VueSlickCarousel :arrows="false" :dots="false" v-bind="settings" class="w-screen override-class">
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph3.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+            <div>
+                <img src="../images/graph2.png" width="473" height="209">
+            </div>
+        </VueSlickCarousel>
         <img src="../images/quoteImage.png" class="w-screen object-class relative" />
+
         <h2
             class="absolute bottom-0 mb-160p sm:mb-0 mr-30p sm:bottom-38% max-w-240p sm:max-w-550p h-84p sm:h-188p right-0 sm:mr-14 xl:mr-119p text-white font-semibold text-our-goal sm:text-blue-section z-20">
             Our goal is help you create your own digital world. From idea to
@@ -19,10 +37,80 @@
         <img src="../images/threeParts.png" class="absolute remove-three-parts hidden sm:block"
             style="bottom: 0; left: 32.3%" />
         <img src="../images/starShape.png" class="absolute hide-star hidden sm:block" style="bottom: -31%; left: 4%" />
+
     </div>
 </template>
 
+<script>
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+
+export default {
+    name: 'MyComponents',
+    components: {
+        VueSlickCarousel
+    },
+    data() {
+        return {
+            settings: {
+                "infinite": true,
+                "draggable": true,
+                "speed": 500,
+                "slidesToShow": 3.33,
+                "slidesToScroll": 1,
+                "initialSlide": 0,
+                responsive: [
+                    {
+                        breakpoint: 1080,
+                        settings: {
+                            slidesToShow: 2.5,
+                            infinite: false,
+                        },
+                    },
+                    {
+                        breakpoint: 850,
+                        settings: {
+                            slidesToShow: 2.1,
+                            infinite: false,
+                        },
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1.7,
+                            infinite: false,
+                        },
+                    },
+                    {
+                        breakpoint: 459,
+                        settings: {
+                            slidesToShow: 1.5,
+                            infinite: false,
+                        },
+                    },
+                    {
+                        breakpoint: 411,
+                        settings: {
+                            slidesToShow: 1.25,
+                            infinite: false,
+                        },
+                    },
+                ],
+            }
+        }
+    }
+}
+</script>
+
 <style>
+
+.override-class {
+    position: absolute !important;
+    top: 2%;
+    right: 0;
+    z-index: 30;
+}
 @media (max-width: 1540px) {
     .hide-star {
         display: none;
