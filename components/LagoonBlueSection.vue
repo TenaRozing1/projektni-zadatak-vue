@@ -1,10 +1,10 @@
 <template>
     <div class="relative">
-        <div class="bg-projectColors-lighter-blue hide-section">
+        <div class="hide-section bg">
             <img src="../images/phase.png" class="relative w-full" style="top:0">
             <img src="../images/line.png" class="absolute line-position-2 remove-left">
             <h2
-                class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 letter-class remove-left uppercase estimation-position">
+                class="font-semibold text-projectColors-dark-gray vertical-text absolute text-vertical z-20 remove-left letter-class uppercase estimation-position">
                 Estimation
             </h2>
             <div class="absolute flex justify-between margin-left-2 ml-24 xxl:ml-130p xxxl:ml-0 mr-20 xxl:mr-130p mt-24 xxxl:mt-136p"
@@ -50,13 +50,15 @@
                 <div
                     class="pt-30p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full sm:mx-10 pb-100p sm:pb-10">
                     <div class="flex justify-center">
-                        <h2 class="text-projectColors-dark-gray uppercase font-semibold letter-class text-specification sm:text-4xl">
+                        <h2
+                            class="text-projectColors-dark-gray uppercase font-semibold letter-class text-specification sm:text-4xl">
                             Estimation</h2>
                     </div>
                     <h2
                         class="text-projectColors-dark-gray font-black pt-85p text-discovery sm:text-7xl pb-9 sm:pb-14 sm:text-center w-282p sm:w-full">
                         Estimation summary</h2>
-                    <p class="text-projectColors-dark-gray text-description-small sm:text-xl pb-54p">Lorem ipsum dolor sit amet. Sit
+                    <p class="text-projectColors-dark-gray text-description-small sm:text-xl pb-54p">Lorem ipsum dolor sit
+                        amet. Sit
                         quaerat cupiditate et libero
                         repudiandae
                         ut modi repellat et autem
@@ -82,8 +84,17 @@
 @media(max-width: 1150px) {
     .hide-section {
         display: none;
+
     }
 }
+
+@media(min-width: 1151px) {
+    .bg {
+        background-color: #EDF6FF;
+
+    }
+}
+
 
 @media(min-width: 1151px) {
     .show-section {
