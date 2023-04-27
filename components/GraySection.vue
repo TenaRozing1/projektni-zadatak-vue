@@ -55,7 +55,7 @@
             </div>
             <div class="relative">
                 <img src="../images/grayBg.png" class="relative w-full" style="bottom:0">
-                <div class="ml-16 xxxl:ml-56 pb-20 xxxl:pb-335p absolute bottom-0 left-0">
+                <div class="ml-24 xxxl:ml-56 pb-20 xxxl:pb-335p absolute bottom-0 left-0">
                     <h2 class="font-black text-gray-section-1 text-white pb-10 xxl:pb-90p w-52 xxl:w-full">Feature breakdown
                     </h2>
                     <p class="max-w-482p w-full text-white text-gray-section-2">Lorem ipsum dolor sit amet. Sit quaerat
@@ -68,7 +68,7 @@
                         saepe. Eos fugiat libero ut molestiae quisquam a sint nihil est molestiae cupiditate!
                     </p>
                 </div>
-                <img src="../images/writing.png" class="absolute pb-153p mr-110p resize" style="bottom:0; right:0;">
+                <img src="../images/writing.png" class="absolute pb-153p mr-20 xxxl:mr-110p resize" style="bottom:0; right:0;">
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
     .blue-pattern-bg {
         background: url("../images/blueSmallImage.png");
         width: 100%;
@@ -149,8 +149,14 @@
 
 @media (max-width: 1727px) {
     .text-position {
-        top: 50%;
+        top: 55%;
         left: 2%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .remove-left {
+        display: none;
     }
 }
 

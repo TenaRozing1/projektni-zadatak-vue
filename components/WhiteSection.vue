@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-projectColors-light-gray hidden md:block">
+    <div class="bg-projectColors-light-gray background-white hidden md:block">
         <div
             class="flex flex-col lg:flex-row items-center lg:items-start justify-center mx-10 lg:mx-0 pb-133p pt-110p lg:pl-10 xxxl:pl-262p lg:mr-10 xxxl:mr-130p">
             <div class="lg:pr-10 xl:pr-24 xxxl:pr-144p">
@@ -26,3 +26,12 @@
         </div>
     </div>
 </template>
+
+<style>
+@media(max-width: 1150px) {
+    .background-white {
+        background-color: white;
+    }
+
+}
+</style>
