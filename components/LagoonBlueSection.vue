@@ -24,7 +24,7 @@
                 </div>
                 <img src="../images/watch.png" class="xxx:ml-51p watch-image-resize">
             </div>
-            <div class="absolute resize-bottom xxxxl:bottom-20%neg z-20">
+            <div class="absolute resize-bottom xxxxl:bottom-22%neg z-20">
                 <div class="flex margin-left-1 ml-24
              xxl:ml-130p xxxl:ml-213p mr-20 xxl:mr-113p pb-201p">
                     <img src="../images/laptop.png" class="mr-20 xxxl:mr-133p watch-image-resize">
