@@ -46,7 +46,7 @@
         </div>
         <div class="relative show-section url-image bg-gradient-small">
             <img src="../images/flow.png" class="w-full relative sm:hidden">
-            <div class="hide-line absolute right-0 bg-projectColors-dark-gray w-12" style="height: 1.5px; top:4.8%"></div>
+            <div class="hide-line absolute right-0 bg-projectColors-dark-gray w-12" style="height: 2px; top:4.8%"></div>
             <div class="flex justify-center sm:mx-5 absolute top-0 bottom-0 left-0 right-0 sm:relative">
                 <div
                     class="pt-30p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full sm:mx-10 pb-100p sm:pb-10">
@@ -56,7 +56,7 @@
                             Estimation</h2>
                     </div>
                     <h2
-                        class="text-projectColors-dark-gray font-black pt-85p text-discovery sm:text-7xl pb-9 sm:pb-14  sm:text-center w-282p sm:w-fullsm:text-center">
+                        class="text-projectColors-dark-gray font-black pt-85p text-discovery sm:text-7xl pb-9 sm:pb-14  sm:text-center w-282p sm:w-full">
                         Estimation summary</h2>
                     <p class="text-projectColors-dark-gray text-description-small sm:text-xl pb-54p">Lorem ipsum dolor sit
                         amet. Sit

@@ -69,9 +69,18 @@ export default {
     object-fit: cover;
 }
 
-body {
-    background: linear-gradient(152.84deg, #A4C1E2 -1.11%, rgba(255, 255, 255, 0) 39.85%);
-    overflow-x: hidden;
+@media(max-width:900px) {
+    body {
+        background: linear-gradient(150deg, #A4C1E2 -0.11%, rgba(255, 255, 255, 0) 6.55%);
+        overflow-x: hidden;
+    }
+}
+
+@media(min-width:901px) {
+    body {
+        background: linear-gradient(145deg, #A4C1E2 -0.11%, rgba(255, 255, 255, 0) 15%);
+        box-shadow: 0px 55px 77px rgba(0, 0, 0, 0.3);
+    }
 }
 
 @media(min-width: 500px) {
@@ -123,15 +132,15 @@ body {
     }
 }
 
- @media (max-width: 389px) {
+@media (max-width: 389px) {
     .padding-smaller {
         padding-top: 50px;
     }
- }
+}
 
- @media (min-width: 395px) and (max-width: 600px) {
+@media (min-width: 395px) and (max-width: 600px) {
     .padding-smaller {
         padding-top: 50px;
     }
- }
+}
 </style>

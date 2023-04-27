@@ -2,7 +2,7 @@
     <div class="bg-projectColors-light-gray relative">
         <div class="xl:overflow-y-hidden">
             <div class="relative bg-custom-blue blue-pattern-bg xl:hidden">
-                <div class="hide-line absolute right-0 bg-white w-12" style="height: 1.5px; top:5.3%"></div>
+                <div class="hide-line absolute right-0 bg-white w-12" style="height: 2px; top:5.3%"></div>
                 <div class="flex justify-center sm:mx-5">
                     <div
                         class="pt-30p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full sm:mx-10 pb-52p sm:pb-10">

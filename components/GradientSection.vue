@@ -40,7 +40,7 @@
             </h2>
         </div>
         <div class="show-section">
-            <div class="hide-line absolute right-0 bg-projectColors-dark-gray w-16" style="height: 1.5px; top: 4.8%"></div>
+            <div class="hide-line absolute right-0 bg-projectColors-dark-gray w-16" style="height: 2px; top: 4.8%"></div>
             <div class="flex justify-center sm:mx-5">
                 <div
                     class="pt-26.4p sm:pt-24 flex flex-col sm:items-center w-265p sm:max-w-640p sm:w-full sm:mx-10 pb-52p sm:pb-10">
